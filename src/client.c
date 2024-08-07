@@ -13,7 +13,7 @@ int checkCLIErrors(int argc, char **argv) {
 
 int listMedia(int sock, Frame *fbuffer) {
 	uint8_t endTransmition = 0;
-	printf("Listando:\n");
+	printf("Listing:\n");
 	mountFrame(fbuffer, LIST, 0, NULL);
 	if (!sendFrameUntilACK(sock, fbuffer, 0)) {
 		printf("Error at listing available media.\n");
