@@ -1,4 +1,4 @@
-Programa com servidor e cliente para transmissão de arquivos entre dois computadores utilizando raw sockets, com implementação de protocolo de camada de enlace.
+Programa com servidor e cliente para transmissão de arquivos entre dois computadores utilizando raw sockets, com implementação de protocolo de camada de enlace. Foco em transmissão de vídeos, mas serve para transferir arquivos genéricos também. O protocolo foi inspirado no protocolo kermit.
 # Rodando o programa
 Os computadores devem estar conectados diretamente com um cabo ethernet, sem passar por um switch ou roteador que irá descartas os frames.
 ## Servidor
