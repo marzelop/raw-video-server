@@ -1,4 +1,6 @@
+Programa com servidor e cliente para transmissão de arquivos entre dois computadores utilizando raw sockets, com implementação de protocolo de camada de enlace.
 # Rodando o programa
+Os computadores devem estar conectados diretamente com um cabo ethernet, sem passar por um switch ou roteador que irá descartas os frames.
 ## Servidor
 Primeiro, rode o servidor numa máquina e selecione a interface desejada (sudo necessário).
 ### Exemplos:
